@@ -1,0 +1,28 @@
+#15.01.2026
+
+#numbers
+
+
+skaitlis1 = 3 
+print(skaitlis1)
+skaitlis2 = 5
+print(skaitlis2)
+
+darbiba1= skaitlis2 + skaitlis1 
+print (darbiba1)
+print(skaitlis1 / skaitlis2)
+print(skaitlis2 * skaitlis1)
+print(skaitlis2 - skaitlis1)
+
+#izvadi tos atsevišķi un kopā
+
+teksts1 = "3"
+teksts2 = "gadi"
+print(teksts1 + teksts2)
+print(teksts1, teksts2)
+print(teksts1+"  "+ teksts2)
+print(teksts2)
+print(teksts1)
+
+
+#nosaki simbola skaitu
