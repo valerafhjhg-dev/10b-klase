@@ -26,3 +26,24 @@ print(teksts1)
 
 
 #nosaki simbola skaitu
+
+print(len(teksts1))
+print(len(teksts2))
+
+#izvadīt 1 teksta simbolu
+#indeksi vienmēr sākas no 0
+#gadi
+#0123
+print(teksts2[1])
+
+
+#izvadīt 2 un 3 teksta simbolu
+#gadi
+#1234simboli pēc kārtas
+#0123 - indeksi
+
+#Izvadē jāredz simboli ad
+print(teksts2[1:3])
+
+#apgriezt tekstu otrādāk 
+print(teksts2[::-1])
