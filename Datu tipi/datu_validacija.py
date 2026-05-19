@@ -3,17 +3,16 @@
 #Datu validacija
 
 #Datu ievade
-vecums = input("Ievadi vecumu: ")
-print(vecums)
+vards = input("Ievadi vārdu: ")
+print(vards)
 
-if vecums.isdigit(): #.isdigit()metode pārbauda, vai saņemtais lielums ir skaitlis vai nav
-    print ("Ir skaitlis")
-    if int (vecums) >=18: 
-        print("Tu esi pilngadīgs.")#Izpildās, ja nosacījums ir patiess
-    else:
-        print("Tu vēl neesi pilngadīgs.")#Izpildās, ja nosacījums nav patiess
+if vards.isalpha(): #.isalpha()metode pārbauda, vai saņemtais lielums ir burti vai nav
+    print ("Ir burti")
+else:
+    print("Nav burti")
+
+    print("Tu esi pilngadīgs.")#Izpildās, ja nosacījums ir patiess
+else:
+    print("Tu vēl neesi pilngadīgs.")#Izpildās, ja nosacījums nav patiess
 else:
     print("Nav skaitlis")
-
-
-
