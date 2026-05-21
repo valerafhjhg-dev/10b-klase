@@ -32,3 +32,4 @@ with open("dati_ieskaite.csv", encoding="utf-8") as f:
 
     videjais_vecums = sum(vecumi) / len(vecumi)
     print(f"Vidējais vecums: {videjais_vecums}")
+    
